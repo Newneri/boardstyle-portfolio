@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import 'doodle.css/doodle.css';
+@import "tailwindcss";
+
+@theme {
+  --color-brown: #70695f;
+  --color-beige: #f4f1e6;
+
+}
+
+.doodle-border {
+    border-color: var(--color-light-brown);
+
+  }

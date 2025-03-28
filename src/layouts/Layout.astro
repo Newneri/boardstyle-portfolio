@@ -1,3 +1,8 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +10,28 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Abdelhamid Akhatar | Cy Tech student </title>
 	</head>
 	<body>
-		<slot />
+		<Header />
+		<main class="container mx-auto w-[50%]">
+			<slot />
+		</main>
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
+<style is:global>
+
+	html {
+		scroll-behavior: smooth;
+		font-family: "Architects Daughter", cursive;
+		font-weight: 400;
+		font-style: cursive;
+	}
+	body {	
+		background-image: url("/so-white.png");
+		background-repeat: repeat;
+		min-height: 100vh;
+		color: #70695f;
 	}
 </style>
