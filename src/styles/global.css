@@ -5,3 +5,8 @@
   --color-brown: #70695f;
   --color-beige: #f4f1e6;
 }
+
+::selection {
+  background: var(--color-brown);
+  color: var(--color-beige);
+}

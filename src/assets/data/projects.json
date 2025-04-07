@@ -1,0 +1,23 @@
+[
+    {
+        "title": "E-commerce Platform",
+        "description": "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, product catalog, and payment integration.",
+        "url": "https://github.com/username/ecommerce-platform",
+        "date": "2023-09-15",
+        "image": "https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585286.jpg?t=st=1744025085~exp=1744028685~hmac=a54850837c730dc7f6c2f6f21a71803b9d14863bea7172ac0d2741d8bde17a99&w=740"
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "Real-time weather application using OpenWeather API, displaying current conditions and 5-day forecast with interactive maps.",
+        "url": "https://github.com/username/weather-dashboard",
+        "date": "2023-07-20",
+        "image": "https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585286.jpg?t=st=1744025085~exp=1744028685~hmac=a54850837c730dc7f6c2f6f21a71803b9d14863bea7172ac0d2741d8bde17a99&w=740"
+    },
+    {
+        "title": "Task Management System",
+        "description": "A collaborative task management tool built with Vue.js and Firebase, featuring real-time updates and team collaboration features.",
+        "url": "https://github.com/username/task-manager",
+        "date": "2023-05-10",
+        "image": "https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585286.jpg?t=st=1744025085~exp=1744028685~hmac=a54850837c730dc7f6c2f6f21a71803b9d14863bea7172ac0d2741d8bde17a99&w=740"
+    }
+]

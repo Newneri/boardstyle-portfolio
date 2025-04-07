@@ -1,0 +1,20 @@
+---
+import Project from './Project.astro';
+import projects from '../assets/data/projects.json';
+---
+
+<section class="container mx-auto m-32 grid" id="projects">
+    <h2 class="text-4xl mb-10 font-medium items-center text-center">Projects</h2>
+    <div class="flex flex-col gap-6">
+        {projects.map((project) => (
+            <Project
+                title={project.title}
+                description={project.description}
+                date={project.date}
+                url={project.url}
+                image={project.image}
+            />
+        ))}
+    </div>
+
+</section>
